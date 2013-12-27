@@ -12,12 +12,15 @@ Getting Started :
     mkdir sony
     cd sony
     git clone https://github.com/Andrewas/android_device_sony_kumquat.git -b cm-11.0 kumquat
-    cd kumquat
+    cd ../..
 
-Now connect your phone which have runing CM11 :
+Then
 
-    ./extract-files.sh
-    cd ../../..
+    cd vendor
+    mkdir sony
+    cd sony
+    git clone https://github.com/XperiaNovathor/proprietary_vendor_sony.git -b master kumquat
+    cd ../..
     cd hardware
     git clone https://github.com/XperiaNovathor/android_hardware_semc.git -b master semc
     cd ..

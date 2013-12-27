@@ -23,7 +23,7 @@ Now connect your phone which have runing CM11 :
     cd ..
     mkdir -p kernel/sony
     cd kernel/sony
-    git clone https://github.com/XperiaNovathor/android_kernel_xperiago.git -b cm-11
+    git clone https://github.com/XperiaNovathor/android_kernel_xperiago.git -b cm-11 u8500
     cd ../..
 
 Patch android source code :

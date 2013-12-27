@@ -19,11 +19,11 @@ Now connect your phone which have runing CM11 :
     ./extract-files.sh
     cd ../../..
     cd hardware
-    git clone https://github.com/munjeni/aosp_4.3_hardware_semc.git -b master semc
+    git clone https://github.com/XperiaNovathor/android_hardware_semc.git -b master semc
     cd ..
     mkdir -p kernel/sony
     cd kernel/sony
-    git clone https://github.com/munjeni/android_kernel_xperiago.git -b cm-11
+    git clone https://github.com/XperiaNovathor/android_kernel_xperiago.git -b cm-11
     cd ../..
 
 Patch android source code :

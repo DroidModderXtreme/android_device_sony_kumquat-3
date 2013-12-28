@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bluetoothd \
     bluetooth.default \
+    audio.a2dp.default \
     haltest
 
 # Bluez 5.11 btmon

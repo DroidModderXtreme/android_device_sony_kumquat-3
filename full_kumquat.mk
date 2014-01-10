@@ -38,7 +38,6 @@ $(call inherit-product, device/sony/kumquat/prebuilt/resources-480x854.mk)
 
 # Inherit from kumquat device
 $(call inherit-product, device/sony/kumquat/kumquat.mk)
-$(call inherit-product-if-exists, vendor/sony/kumquat/kumquat-vendor.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_kumquat

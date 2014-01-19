@@ -1,2 +1,2 @@
-add_lunch_combo cm_kumquat-userdebug
-add_lunch_combo cm_kumquat-eng
+add_lunch_combo pac_kumquat-userdebug
+add_lunch_combo pac_kumquat-eng
